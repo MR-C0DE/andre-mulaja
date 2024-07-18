@@ -1,0 +1,34 @@
+.experience-container {
+    background-color: #f9f9f9;
+    margin: 4rem 0;
+    padding: 1.5rem;
+  }
+  
+  .experience-item {
+    
+    border-radius: 8px;
+    
+    transition: transform 0.2s ease-in-out;
+    margin-bottom: 1rem;
+    
+
+  }
+  
+  .experience-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .experience-item h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #858585;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-item p {
+    font-size: 0.9rem;
+    color: #9b9b9b;
+    line-height: 1;
+
+  }
+  

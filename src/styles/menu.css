@@ -1,0 +1,53 @@
+/* Styles généraux du menu */
+.Menu {
+    position: relative;
+  }
+  
+  /* Icône du menu */
+  .MenuIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    z-index: 999;
+  }
+  
+  /* Menu déroulant */
+  .MenuNav {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    width: 10rem; /* Largeur du menu déroulant */
+    background-color: #1e1e1ee6; /* Couleur de fond semi-transparente */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alignement des éléments à gauche */
+    z-index: 998;
+    border-radius: 4px;
+  }
+  
+  /* Liste des éléments du menu */
+  .MenuList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Élément individuel du menu */
+  .MenuItem {
+    margin-bottom: 12px; /* Espacement entre les éléments du menu */
+  }
+  
+  .MenuItem a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .MenuItem a:hover {
+    color: #ffcc00; /* Couleur au survol */
+  }
+  

@@ -1,0 +1,79 @@
+/* Styles généraux du header */
+.header-container {
+    padding: 10px 0px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 3px #e4e4e4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Style du logo */
+  .logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ffcc00;
+  }
+  
+  /* Contenu du header */
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px; /* Ajout de padding pour les écrans plus petits */
+  }
+  
+  /* Navigation principale */
+  .header-content nav.navigation-container ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0; /* Réinitialisation de la marge pour éviter les espaces indésirables */
+    padding: 0;
+    list-style-type: none; /* Suppression des puces de liste */
+  }
+  
+  .header-content nav.navigation-container ul li.route {
+    /* Aucun changement nécessaire ici */
+  }
+  
+  .header-content nav.navigation-container ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 450;
+  }
+  
+  .header-content nav.navigation-container ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  .header-content nav.navigation-container ul li button {
+    padding: 8px 15px;
+    background-color: #222222;
+    color: #ffffff;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.95rem; /* Taille de police légèrement réduite pour une meilleure esthétique */
+  }
+  
+  /* Media Queries pour la responsivité */
+  @media only screen and (max-width: 830px) {
+    .header-content {
+      padding: 0px 15px; /* Réduire le padding sur les côtés pour un meilleur ajustement sur de petits écrans */
+    }
+    
+    .header-content nav.navigation-container ul {
+      gap: 1.5rem; /* Réduire l'espacement entre les éléments de la liste */
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    /* Aucun changement spécifique pour cette media query dans le CSS fourni */
+  }
+  

@@ -1,0 +1,68 @@
+/* projectInfo.css */
+
+/* Container styling */
+.project-info-container {
+    
+   
+   
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 2rem;
+  }
+  
+  /* Heading styling */
+  .project-info-container h2 {
+    font-size: 3rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph styling */
+  .project-info-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  /* Responsive adjustments for tablets */
+  @media (max-width: 1024px) {
+    .project-info-container {
+      max-width: 700px;
+      padding: 15px;
+    }
+    .project-info-container h2 {
+      font-size: 1.8rem;
+    }
+    .project-info-container p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Responsive adjustments for mobile devices */
+  @media (max-width: 768px) {
+    .project-info-container {
+      max-width: 90%;
+      padding: 10px;
+    }
+    .project-info-container h2 {
+      font-size: 1.5rem;
+    }
+    .project-info-container p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Responsive adjustments for small mobile devices */
+  @media (max-width: 480px) {
+    .project-info-container {
+      max-width: 95%;
+      padding: 10px;
+    }
+    .project-info-container h2 {
+      font-size: 1.3rem;
+    }
+    .project-info-container p {
+      font-size: 0.8rem;
+    }
+  }
+  

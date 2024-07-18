@@ -1,0 +1,9 @@
+body{
+    font-family: "Laila", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+div, p, span, button{
+    font-size: .98em;
+}
