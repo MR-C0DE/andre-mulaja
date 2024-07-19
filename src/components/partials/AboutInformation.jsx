@@ -24,9 +24,9 @@ const AboutInformation = () => {
               <br /><br />
               Feel free to connect with me on my social networks:
               <ul>
-                <li><a href="[LinkedIn link]" className="about-link">LinkedIn</a></li>
-                <li><a href="https://github.com/YourGitHubProfile" className="about-link">GitHub</a></li>
-                <li><a href="[Twitter link]" className="about-link">Twitter</a></li>
+                <li><a href={user.media.linkedin} target="_blank" className="about-link">LinkedIn</a></li>
+                <li><a href={user.media.github} target="_blank" className="about-link">GitHub</a></li>
+
               </ul>
             </p>
           </div>

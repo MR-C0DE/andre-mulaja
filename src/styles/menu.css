@@ -20,7 +20,7 @@
     top: calc(100% + 4px);
     right: 0;
     width: 10rem; /* Largeur du menu déroulant */
-    background-color: #1e1e1ee6; /* Couleur de fond semi-transparente */
+    background-color: #1e1e1ef6; /* Couleur de fond semi-transparente */
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -34,20 +34,26 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 100%;
   }
   
   /* Élément individuel du menu */
   .MenuItem {
-    margin-bottom: 12px; /* Espacement entre les éléments du menu */
+    margin-bottom: 20px; /* Espacement entre les éléments du menu */
+    
+    
   }
   
   .MenuItem a {
     color: #fff;
     text-decoration: none;
     transition: all 0.3s ease;
+    font-size: 1.2rem;
+    
   }
   
   .MenuItem a:hover {
     color: #ffcc00; /* Couleur au survol */
   }
   
+ 

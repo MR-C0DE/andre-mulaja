@@ -2,6 +2,9 @@
     background-color: #f9f9f9;
     margin: 4rem 0;
     padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .experience-item {
@@ -10,6 +13,7 @@
     
     transition: transform 0.2s ease-in-out;
     margin-bottom: 1rem;
+
     
 
   }

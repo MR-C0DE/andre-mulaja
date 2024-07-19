@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="header-content wrapper-0">
-        <img className="logo" src="logo.png" alt="" />
+      <Link to={"/"}><img className="logo" src="logo.png" alt="" /></Link>
         {width >= 580 ? (
           <nav className="navigation-container">
             <ul>
@@ -22,9 +22,7 @@ const Header = () => {
               <li className="route">
                 <Link to={"/projects"}>Projects</Link>
               </li>
-              <li className="route">
-                <Link to={"/articles"}>Articles</Link>
-              </li>
+           
               <li className="route">
                 <Link to={"/contact"}>Contact</Link>
               </li>

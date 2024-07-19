@@ -20,8 +20,8 @@ const Resume = () => {
       </div>
       <div className="social-media">
           <ul>
-              <li><img src="linkedin.png" width={35} alt="" /></li>
-              <li><img src="github.png" width={35} alt="" /></li>
+              <li><a href={user.media.linkedin}><img src="linkedin.png" width={35} alt="" /></a></li>
+              <li><a href={user.media.github}><img src="github.png" width={35} alt="" /></a></li>
               {width <= 580 && (
                 <li>
                   <a href={"/Software_Developer.pdf"} download>
