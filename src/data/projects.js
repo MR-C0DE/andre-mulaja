@@ -26,7 +26,7 @@ export const projects = [
     id: 2,
     name: "Quiz Application",
     description: "Built an interactive quiz application using Node.js, Express.js, Web Socket, and React.",
-    detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+    detail: "Built an engaging and interactive quiz application by integrating Node.js and Express.js to handle server-side logic and manage real-time data exchanges through Web Socket, ensuring responsive and dynamic interactions between the server and clients, while employing React to create a seamless and intuitive front-end interface that allows users to participate in quizzes, answer questions, and view results in real-time. This setup provides a robust platform for delivering real-time quiz experiences, supporting multiple users simultaneously, and managing quiz data efficiently, resulting in an interactive and user-centric application that enhances learning and engagement.",
     technologies: ["Node.js", "Express.js", "Web Socket", "React"],
     category: "School",
     media: {
@@ -176,7 +176,7 @@ export const projects = [
     },
   },
   {
-    id: 8,
+    id: 7,
     name: "Sudoku Game",
     description: "Built a Sudoku game using HTML, CSS, and JS.",
     detail: "The objective of this project is to design and implement a fully functional, interactive Sudoku game using HTML, CSS, and JavaScript. This project will incorporate features such as real-time input validation to prevent mistakes, intelligent hint systems to assist players without revealing solutions, and an integrated timer to track game duration. The game will offer varying levels of difficulty to accommodate different skill levels and will be built with a responsive and visually appealing design to ensure usability across various devices and screen sizes. Through this endeavor, I aim to enhance my front-end development skills, deepen my understanding of user interface design and game mechanics, and create a polished application. Additionally, this project serves as a practical exercise to help a colleague with their own project, providing a valuable opportunity to collaborate and support each other's learning and development.",
@@ -205,7 +205,7 @@ export const projects = [
   },
 
   {
-    id: 13,
+    id: 8,
     name: "Inventory Management AML",
     description: "Created an efficient inventory management application with Nextjs, NodeJS, MySql.",
     detail: "In my personal project, I meticulously designed and implemented an efficient inventory management application utilizing Next.js for the front-end, Node.js for the back-end, and MySQL for database management, while incorporating a comprehensive suite of security measures to safeguard the application and its data; this includes employing bcrypt for secure hashing of user passwords, ensuring that sensitive credentials are stored safely and cannot be easily compromised; integrating compression to reduce the size of HTTP responses and enhance overall performance by minimizing load times; configuring cors to manage and restrict cross-origin resource sharing, thereby preventing unauthorized domains from accessing the application’s resources; utilizing csurf to implement CSRF protection, thereby defending against malicious attempts to alter user data through forged requests; using dotenv to manage environment variables securely and keep sensitive information out of source control; implementing express-rate-limit to prevent brute-force attacks by limiting the number of requests a user can make within a specified time frame; leveraging express-validator to validate and sanitize user input, thereby preventing the processing of malicious data; incorporating helmet to set various HTTP headers that provide protection against well-known web vulnerabilities; employing jsonwebtoken for handling secure authentication and authorization through JSON Web Tokens, ensuring that user sessions are protected; integrating morgan for logging HTTP requests to aid in monitoring and debugging the application; using mysql2 as the MySQL client to facilitate efficient and secure interactions with the database; configuring nodemailer for secure email communications, such as sending notifications and password reset links; utilizing nodemon for automatic server restarts during development to streamline the workflow; leveraging winston for advanced logging capabilities to provide insights into system operations and assist with troubleshooting; and implementing xss to prevent Cross-Site Scripting (XSS) attacks by sanitizing user inputs before rendering them on web pages; in addition to these security measures, I focused on creating a user-friendly and visually appealing graphical interface, ensuring that the application provides an intuitive and seamless user experience with a modern and responsive design, making it accessible and easy to navigate across various devices and screen sizes, thus delivering not only robust functionality and security but also an engaging and efficient interface for managing inventory.",
