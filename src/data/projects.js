@@ -2,20 +2,21 @@ export const projects = [
   {
     id: 1,
     name: "Hotel Management Platform",
-    description:
-      "Developed a comprehensive hotel management platform using Node.js, Next.js, React, and Electron.",
-    detail: "",
+    description: "Developed a comprehensive hotel management platform using Node.js, Next.js, React, and Electron.",
+    detail: "The school project involves developing a comprehensive hotel management solution with a robust architecture composed of two Node.js APIs connected to MongoDB and SQLite for efficient data management. The first API, dedicated to database management, handles CRUD operations (Create, Read, Update, Delete) and ensures data validation and consistency through an intelligent decision system that verifies and adjusts data before sending it. The second API, the central API, facilitates communication between the front-end applications and the database management API by exposing specific routes that allow the applications to access and manipulate data. The project includes several front-end applications: the central application, developed in NextJS, enables administrators to manage hotels, users, reservations, and services, offering features such as adding, deleting, modifying, and displaying detailed information about hotels and users, with an intuitive graphical interface for effective management. The hotel application, also developed in NextJS, is designed for hotel establishments and allows them to manage reservations, services, client communications, and room availability information, providing a practical interface for accepting or declining reservations, modifying hotel details, and managing offered services. The client application, developed in NextJS, allows clients to log in, make reservations, cancel reservations, communicate directly with hotels, rate hotels, and leave feedback on their experiences, offering a smooth and user-friendly interface. In addition to these front-end applications, the project also includes an internal management application developed in ElectronJS, specifically designed for internal hotel management, providing tools to manage users, services, and rooms, and enabling effective and centralized management of operations. The overall project aims to provide a complete and integrated solution for hotel management operations, using modern technologies like Node.js, MongoDB, SQLite, NextJS, and ElectronJS to ensure high performance, adaptability to various user needs, and scalability for future system requirements, all while being realized as part of a school project that applies advanced technical skills and a structured approach to software development.",
     technologies: ["Node.js", "Next.js", "React", "Electron"],
     category: "School",
     media: {
-      cover: "pr.webp",
+      cover: "projects-images/Ghotel.png",
       files: [
         {
-          name: "",
+          name: "Ghotel",
           type: "video",
+          url: "projects-videos/ghotel.mp4"
         },
       ],
     },
+    type: "Full-Stack",
     links: {
       GitHub: null,
       production: null,
@@ -24,10 +25,8 @@ export const projects = [
   {
     id: 2,
     name: "Quiz Application",
-    description:
-      "Built an interactive quiz application using Node.js, Express.js, Web Socket, and React.",
-    detail:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae facere autem iure, pariatur quidem quam iusto tenetur consectetur at nulla animi sunt impedit, aliquid recusandae labore facilis? Explicabo, tempore architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae facere autem iure, pariatur quidem quam iusto tenetur consectetur at nulla animi sunt impedit, aliquid recusandae labore facilis? Explicabo, tempore architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae facere autem iure, pariatur quidem quam iusto tenetur consectetur at nulla animi sunt impedit, aliquid recusandae labore facilis? Explicabo, tempore architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae facere autem iure, pariatur quidem quam iusto tenetur consectetur at nulla animi sunt impedit, aliquid recusandae labore facilis? Explicabo, tempore architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae facere autem iure, pariatur quidem quam iusto tenetur consectetur at nulla animi sunt impedit, aliquid recusandae labore facilis? Explicabo, tempore architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae facere autem iure, pariatur quidem quam iusto tenetur consectetur at nulla animi sunt impedit, aliquid recusandae labore facilis? Explicabo, tempore architecto.",
+    description: "Built an interactive quiz application using Node.js, Express.js, Web Socket, and React.",
+    detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
     technologies: ["Node.js", "Express.js", "Web Socket", "React"],
     category: "School",
     media: {
@@ -53,6 +52,7 @@ export const projects = [
         },
       ],
     },
+    type: "Full-Stack",
     links: {
       GitHub: null,
       production: null,
@@ -61,52 +61,65 @@ export const projects = [
   {
     id: 3,
     name: "Inventory Management Application",
-    description:
-      "Created an efficient inventory management application with Python Django and React.",
-    detail: "",
+    description: "Created an efficient inventory management application with Python Django and React.",
+    detail: "The goal of this project is to design and develop a comprehensive and highly efficient inventory management application by leveraging the capabilities of the Django framework for Python to create a sophisticated RESTful API that manages all backend operations such as creating, reading, updating, and deleting inventory items in a seamless and secure manner, while utilizing the flexibility and responsiveness of the React library to build a modern, interactive user interface that enables users to view, manage, and optimize their inventories in real time with an enhanced user experience, incorporating advanced features such as detailed search and filtering tools to refine stock results, customizable dashboards providing an overview of stock levels, sales trends, and key statistics, as well as sophisticated notification mechanisms for restocking alerts to prevent inventory shortages, all designed to improve the accuracy, speed, and efficiency of inventory management operations across a variety of commercial and industrial contexts, while ensuring system scalability, security, and performance as inventory management needs evolve.",
     technologies: ["Python Django", "React"],
     category: "School",
     media: {
-      cover: "pr.webp",
+      cover: "projects-images/inv.png",
       files: [
         {
-          name: "",
+          name: "projects-videos/inv.mp4",
           type: "video",
+          url: "projects-videos/inv.mp4",
         },
       ],
     },
+    type: "Full-Stack",
     links: {
-      GitHub: null,
+      GitHub: [{dir: "https://github.com/MR-C0DE/inventaire", type: "Client"}, {dir: "https://github.com/MR-C0DE/inventaire_server", type: "Server"}],
       production: null,
     },
   },
   {
     id: 4,
     name: "Bookstore",
-    description:
-      "Developed a bookstore application with HTML, CSS, JS, ASP.net MVC, and Entity Framework.",
-    detail: "",
+    description: "Developed a bookstore application with HTML, CSS, JS, ASP.net MVC, and Entity Framework.",
+    detail: "Developed a comprehensive and highly functional bookstore application by integrating a suite of technologies, including HTML, CSS, and JavaScript for crafting a dynamic and responsive front-end interface that ensures an engaging and intuitive user experience, while employing ASP.NET MVC on the back-end to establish a robust and scalable framework that efficiently handles business logic, server-side operations, and user interactions, coupled with Entity Framework to streamline data access and management, enabling smooth and reliable interactions with the underlying database for functionalities such as browsing and searching for books, managing user accounts and preferences, processing transactions, and maintaining up-to-date inventory, all designed to provide a seamless, secure, and performant platform that supports a comprehensive book purchasing experience while maintaining cohesion between the various technological components and ensuring adaptability to future needs and enhancements.",
     technologies: ["HTML", "CSS", "JS", "ASP.net MVC", "Entity Framework"],
     category: "School",
     media: {
-      cover: "pr.webp",
+      cover: "projects-images/rideauHome.png",
       files: [
         {
-          name: "",
-          type: "video",
+          id: 1,
+          name: "Home",
+          type: "image",
+          url: "projects-images/rideauHome.png"
+        },{
+          id: 2,
+          name: "Lib",
+          type: "image",
+          url: "projects-images/rideauLib.png"
+        },
+        {
+          id: 3,
+          name: "Detail",
+          type: "image",
+          url: "projects-images/rideauDetail.png"
         },
       ],
     },
+    type: "Full-Stack",
     links: {
-      GitHub: null,
+      GitHub: [{dir: "https://github.com/MR-C0DE/Rideau", type: "Client-Server"}],
       production: null,
     },
   },
   {
     id: 5,
     name: "Bible Store",
-    description:
-      "Designed a platform for selling Bibles using HTML, CSS, JS, JQuery, Ajax, and PHP.",
+    description: "Designed a platform for selling Bibles using HTML, CSS, JS, JQuery, Ajax, and PHP.",
     detail: "The primary objective of this project, assigned by the professor as part of an introductory web server course, is to design and implement a comprehensive online sales platform dedicated to the sale of bibles, encompassing categories such as used, new, and electronic versions, utilizing an array of web technologies, without incorporating an online payment system, but ensuring the full functionality of key e-commerce features, including a robust user management system that supports user registration, secure login, account management, and order history tracking, an interactive shopping cart that allows users to select, add, and remove items, view a detailed summary of their cart contents, and prepare their orders, as well as an integrated form management system for handling inquiries, orders, and feedback submissions, all supported by a relational MySQL database designed to manage user information, product details, and simulated transactions, with the overall site architecture built using HTML for structuring the page content, CSS for defining the visual aesthetics and design, JavaScript and JQuery for enhancing client-side interactivity, Ajax for asynchronous content updates to improve user experience by minimizing page reloads, and PHP for server-side data processing and the integration of various site functionalities and logic.",
     technologies: ["HTML", "CSS", "JS", "JQuery", "Ajax", "PHP"],
     category: "School",
@@ -120,65 +133,45 @@ export const projects = [
           url: "projects-images/5_appiaHome.png",
         },
         {
-            id: 2,
-            name: "Article",
-            type: "image",
-            url: "projects-images/5_appiaArticle.png",
-          },
-          {
-            id: 3,
-            name: "Panier",
-            type: "image",
-            url: "projects-images/5_appiaPanier.png",
-          },
+          id: 2,
+          name: "Article",
+          type: "image",
+          url: "projects-images/5_appiaArticle.png",
+        },
+        {
+          id: 3,
+          name: "Panier",
+          type: "image",
+          url: "projects-images/5_appiaPanier.png",
+        },
       ],
     },
+    type: "Full-Stack",
     links: {
-      GitHub: "https://github.com/MR-C0DE/appia",
+      GitHub: [{dir: "https://github.com/MR-C0DE/appia", type: "client-server"}],
       production: null,
     },
   },
   {
     id: 6,
     name: "Time Management Platform",
-    description:
-      "Developed a time management platform using SwiftUI and Swift.",
-    detail: "",
+    description: "Developed a time management platform using SwiftUI and Swift.",
+    detail: "For a personal project aimed at practice and self-improvement, I developed a time management platform using SwiftUI and Swift, which encompasses functionalities such as a stopwatch, timer, and alarm features. This project involved leveraging SwiftUI to create a modern, user-friendly interface that allows users to easily interact with and manage their time-related tasks, while utilizing Swift to implement the underlying logic and functionality for accurate and efficient time tracking, notifications, and user interactions. The application is designed to help users better manage their time by providing a seamless and intuitive tool for setting and tracking timers, alarms, and chronometers, thus enhancing productivity and time management skills.",
     technologies: ["SwiftUI", "Swift"],
     category: "Personal",
     media: {
-      cover: "pr.webp",
+      cover: "projects-images/time.png",
       files: [
         {
-          name: "",
+          name: "time",
           type: "video",
+          url: "projects-videos/time.mov"
         },
       ],
     },
+    type: "Client",
     links: {
-      GitHub: null,
-      production: null,
-    },
-  },
-  {
-    id: 7,
-    name: "Patient Management Platform",
-    description:
-      "Created a patient management platform using Node.js and Next.js.",
-    detail: "",
-    technologies: ["Node.js", "Next.js"],
-    category: "Personal",
-    media: {
-      cover: "pr.webp",
-      files: [
-        {
-          name: "",
-          type: "video",
-        },
-      ],
-    },
-    links: {
-      GitHub: null,
+      GitHub: [{dir: "https://github.com/MR-C0DE/Chrono", type: "Client"}],
       production: null,
     },
   },
@@ -186,172 +179,57 @@ export const projects = [
     id: 8,
     name: "Sudoku Game",
     description: "Built a Sudoku game using HTML, CSS, and JS.",
-    detail: "",
+    detail: "The objective of this project is to design and implement a fully functional, interactive Sudoku game using HTML, CSS, and JavaScript. This project will incorporate features such as real-time input validation to prevent mistakes, intelligent hint systems to assist players without revealing solutions, and an integrated timer to track game duration. The game will offer varying levels of difficulty to accommodate different skill levels and will be built with a responsive and visually appealing design to ensure usability across various devices and screen sizes. Through this endeavor, I aim to enhance my front-end development skills, deepen my understanding of user interface design and game mechanics, and create a polished application. Additionally, this project serves as a practical exercise to help a colleague with their own project, providing a valuable opportunity to collaborate and support each other's learning and development.",
     technologies: ["HTML", "CSS", "JS"],
     category: "Personal",
     media: {
-      cover: "pr.webp",
+      cover: "projects-images/8_logo.jpg",
       files: [
         {
-          name: "",
+          name: "Home",
+          type: "image",
+          url:"projects-images/8_home.png",
+        },
+        {
+          name: "Gaming",
           type: "video",
+          url: "projects-videos/8_sud.mov"
         },
       ],
     },
+    type: "Client",
     links: {
-      GitHub: null,
-      production: null,
+      GitHub: [{dir: "https://github.com/MR-C0DE/Sudoku", type: "Client"}],
+      production: "https://sudoku-eta-lilac.vercel.app",
     },
   },
-  {
-    id: 9,
-    name: "Auction Platform",
-    description: "Developed an auction platform using Node.js and VueJS.",
-    detail: "",
-    technologies: ["Node.js", "VueJS"],
-    category: "Personal",
-    media: {
-      cover: "pr.webp",
-      files: [
-        {
-          name: "",
-          type: "video",
-        },
-      ],
-    },
-    links: {
-      GitHub: null,
-      production: null,
-    },
-  },
-  {
-    id: 10,
-    name: "Political Platform - Social Network",
-    description:
-      "Designed a political platform as a social network using Next.js and Node.js.",
-    detail: "",
-    technologies: ["Next.js", "Node.js"],
-    category: "Personal",
-    media: {
-      cover: "pr.webp",
-      files: [
-        {
-          name: "",
-          type: "video",
-        },
-      ],
-    },
-    links: {
-      GitHub: null,
-      production: null,
-    },
-  },
-  {
-    id: 11,
-    name: "Evangelization Platform",
-    description:
-      "Built an evangelization platform using HTML, CSS, JS, and PHP.",
-    detail: "",
-    technologies: ["HTML", "CSS", "JS", "PHP"],
-    category: "Personal",
-    media: {
-      cover: "pr.webp",
-      files: [
-        {
-          name: "",
-          type: "video",
-        },
-      ],
-    },
-    links: {
-      GitHub: null,
-      production: null,
-    },
-  },
-  {
-    id: 12,
-    name: "Startup Web Platform",
-    description:
-      "Built a startup web platform using HTML, CSS, JS, and Webador.",
-    detail: "",
-    technologies: ["HTML", "CSS", "JS", "Webador"],
-    category: "Taskflow-labs",
-    media: {
-      cover: "projects-images/taskflow.png",
-      files: [
-        {
-          name: "",
-          type: "video",
-        },
-      ],
-    },
-    links: {
-      GitHub: null,
-      production: null,
-    },
-  },
+
   {
     id: 13,
-    name: "AI Chatbot Integration",
-    description:
-      "Implemented an AI-powered chatbot integration for customer support using Node.js, React, and Dialogflow.",
-    detail:
-      "The AI Chatbot Integration project aimed to revolutionize customer support services by leveraging advanced artificial intelligence techniques. The solution was architected to streamline and automate customer interactions, reducing response times and improving overall satisfaction.\n\n\
-    **Project Objectives:**\n\
-    - Develop a scalable and efficient backend using Node.js to handle complex logic and integrations.\n\
-    - Implement a responsive and intuitive frontend interface using React to seamlessly interact with the chatbot backend.\n\
-    - Integrate Dialogflow, a powerful natural language processing platform by Google, to enable intelligent conversation handling and context-aware responses.\n\
-    - Enhance user experience through features like sentiment analysis, entity recognition, and personalized responses based on user history and preferences.\n\
-    - Conduct extensive testing, including unit tests, integration tests, and user acceptance tests, to ensure robustness and reliability.\n\
-    - Optimize performance and scalability to handle large volumes of concurrent user interactions while maintaining low latency.\n\
-    - Collaborate closely with stakeholders to gather requirements, iterate on design, and incorporate feedback throughout the development lifecycle.\n\
-    - Document architecture, design decisions, and implementation details to facilitate future maintenance and enhancements.\n\
-    - Deploy the chatbot application on a scalable cloud infrastructure, ensuring high availability and resilience.\n\n\
-    **Technologies Used:**\n\
-    - **Backend:** Node.js for server-side logic and API development.\n\
-    - **Frontend:** React for building responsive user interfaces and integrating with backend APIs.\n\
-    - **Natural Language Processing:** Dialogflow for conversational AI, enabling natural language understanding and automated responses.\n\
-    - **Database:** MongoDB for storing and managing user data and chatbot interactions.\n\
-    - **Cloud Services:** Deployed on AWS EC2 for hosting the application with scalable compute capacity.\n\n\
-    **Project Achievements:**\n\
-    - Successfully deployed a fully functional AI chatbot that handles customer inquiries across multiple channels, including web and mobile.\n\
-    - Achieved a significant reduction in average response time, leading to improved customer satisfaction scores.\n\
-    - Implemented continuous monitoring and analytics to track chatbot performance metrics and user interaction patterns.\n\
-    - Received positive feedback from end users and stakeholders on the chatbot's effectiveness and usability.\n\
-    - Contributed to advancing the organization's digital transformation goals by introducing AI-driven automation in customer support.\n\n\
-    **Future Enhancements:**\n\
-    - Enhance the chatbot's capabilities with additional AI models for more advanced conversational features.\n\
-    - Integrate with CRM systems to provide personalized recommendations and proactive customer service.\n\
-    - Expand language support and localization to cater to global customer bases.\n\
-    - Implement machine learning models for predictive analytics and proactive issue resolution.\n\
-    - Continuously iterate on the chatbot's responses and workflows based on user feedback and evolving business requirements.\n\n\
-    This project exemplifies the transformative impact of AI technology in enhancing customer service operations, demonstrating innovation and technical expertise in AI-driven applications.",
-    technologies: ["Node.js", "React", "Dialogflow", "MongoDB", "AWS EC2"],
+    name: "Inventory Management AML",
+    description: "Created an efficient inventory management application with Nextjs, NodeJS, MySql.",
+    detail: "In my personal project, I meticulously designed and implemented an efficient inventory management application utilizing Next.js for the front-end, Node.js for the back-end, and MySQL for database management, while incorporating a comprehensive suite of security measures to safeguard the application and its data; this includes employing bcrypt for secure hashing of user passwords, ensuring that sensitive credentials are stored safely and cannot be easily compromised; integrating compression to reduce the size of HTTP responses and enhance overall performance by minimizing load times; configuring cors to manage and restrict cross-origin resource sharing, thereby preventing unauthorized domains from accessing the application’s resources; utilizing csurf to implement CSRF protection, thereby defending against malicious attempts to alter user data through forged requests; using dotenv to manage environment variables securely and keep sensitive information out of source control; implementing express-rate-limit to prevent brute-force attacks by limiting the number of requests a user can make within a specified time frame; leveraging express-validator to validate and sanitize user input, thereby preventing the processing of malicious data; incorporating helmet to set various HTTP headers that provide protection against well-known web vulnerabilities; employing jsonwebtoken for handling secure authentication and authorization through JSON Web Tokens, ensuring that user sessions are protected; integrating morgan for logging HTTP requests to aid in monitoring and debugging the application; using mysql2 as the MySQL client to facilitate efficient and secure interactions with the database; configuring nodemailer for secure email communications, such as sending notifications and password reset links; utilizing nodemon for automatic server restarts during development to streamline the workflow; leveraging winston for advanced logging capabilities to provide insights into system operations and assist with troubleshooting; and implementing xss to prevent Cross-Site Scripting (XSS) attacks by sanitizing user inputs before rendering them on web pages; in addition to these security measures, I focused on creating a user-friendly and visually appealing graphical interface, ensuring that the application provides an intuitive and seamless user experience with a modern and responsive design, making it accessible and easy to navigate across various devices and screen sizes, thus delivering not only robust functionality and security but also an engaging and efficient interface for managing inventory.",
+    technologies: ["Nodejs", "NextJS"],
     category: "Personal",
     media: {
-      cover:
-        "https://artificialintelligence.oodles.io/wp-content/uploads/2019/08/Untitled-2-01.jpg",
+      cover: "projects-images/class.png",
       files: [
         {
-          name: "Demo Video",
+          name: "Aml",
           type: "video",
-          url: "https://example.com/chatbot-demo.mp4",
+          url: "projects-videos/aml2.mov",
         },
         {
-          name: "Architecture Diagram",
+          name: "Aml",
           type: "image",
-          url: "https://example.com/chatbot-architecture.png",
-        },
-        {
-          name: "User Interface Screenshots",
-          type: "image",
-          url: "https://example.com/chatbot-ui-screenshots.zip",
+          url: "projects-images/inv2.png",
         },
       ],
     },
+    type: "Full-Stack",
     links: {
-      GitHub: "https://github.com/yourusername/chatbot-integration",
-      production: "https://example.com/chatbot",
+      GitHub: [{dir: "https://github.com/MR-C0DE/aml-server", type: "Server"}],
+      production: 'https://projet-aml.vercel.app',
     },
-  },
+  }
 ];
