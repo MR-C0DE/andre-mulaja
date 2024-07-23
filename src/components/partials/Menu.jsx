@@ -28,9 +28,7 @@ const Menu = () => {
             <li className="MenuItem">
               <Link to={"/projects"}>Projects</Link>
             </li>
-            <li className="MenuItem">
-              <Link to={"/articles"}>Articles</Link>
-            </li>
+
             <li className="MenuItem">
               <Link to={"/contact"}>Contact</Link>
             </li>
