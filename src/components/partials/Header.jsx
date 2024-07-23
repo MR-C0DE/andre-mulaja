@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../../styles/header.css";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { useScreenSize } from "../../contexts/ScreenSizeContext";
 import Menu from "./Menu";
 const Header = () => {
@@ -37,6 +37,7 @@ const Header = () => {
           <Menu />
         )}
       </div>
+      <Outlet />
     </div>
   );
 };
