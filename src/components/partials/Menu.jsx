@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa"; // Importation des icônes de la bibliothèque react-icons
+import { FaBars, FaTimes } from "react-icons/fa"; 
 import "../../styles/menu.css";
 
 const Menu = () => {
@@ -14,7 +14,7 @@ const Menu = () => {
     <div className="Menu">
       <div onClick={toggleMenu} className="MenuIcon">
         {menuOpen ? <FaTimes /> : <FaBars />}{" "}
-        {/* Utilisation d'icônes pour ouvrir et fermer le menu */}
+       
       </div>
       {menuOpen && (
         <nav className={"MenuNav"}>
