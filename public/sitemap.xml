@@ -10,5 +10,20 @@
     <lastmod>2024-07-18</lastmod>
     <priority>0.80</priority>
   </url>
+  <url>
+    <loc>https://andremulaja.org/contact</loc>
+    <lastmod>2024-07-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://andremulaja.org/projects</loc>
+    <lastmod>2024-07-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://andremulaja.org/Software_Developer.pdf</loc>
+    <lastmod>2024-07-18</lastmod>
+    <priority>0.80</priority>
+  </url>
   <!-- Ajoutez d'autres URL de votre site -->
 </urlset>
