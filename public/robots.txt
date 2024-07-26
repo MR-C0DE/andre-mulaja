@@ -4,4 +4,4 @@
 User-agent: *
 Disallow: /admin
 Allow: /
-Sitemap: https://andremulaja.vercel.app/sitemap.xml
+Sitemap: https://andremulaja.org/sitemap.xml
