@@ -2,28 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://andremulaja.org/</loc>
-    <lastmod>2024-07-18</lastmod>
+    <lastmod>2024-08-05</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://andremulaja.org/about</loc>
-    <lastmod>2024-07-18</lastmod>
+    <lastmod>2024-08-05</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://andremulaja.org/contact</loc>
-    <lastmod>2024-07-18</lastmod>
+    <lastmod>2024-08-05</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://andremulaja.org/projects</loc>
-    <lastmod>2024-07-18</lastmod>
+    <lastmod>2024-08-05</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://andremulaja.org/Software_Developer.pdf</loc>
-    <lastmod>2024-07-18</lastmod>
-    <priority>0.80</priority>
+    <loc>https://andremulaja.org/details?id=1</loc>
+    <lastmod>2024-08-05</lastmod>
+    <priority>0.60</priority>
   </url>
+  <url>
+    <loc>https://andremulaja.org/details?id=2</loc>
+    <lastmod>2024-08-05</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://andremulaja.org/details?id=3</loc>
+    <lastmod>2024-08-05</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://andremulaja.org/details?id=4</loc>
+    <lastmod>2024-08-05</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://andremulaja.org/details?id=5</loc>
+    <lastmod>2024-08-05</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://andremulaja.org/details?id=6</loc>
+    <lastmod>2024-08-05</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://andremulaja.org/details?id=7</loc>
+    <lastmod>2024-08-05</lastmod>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://andremulaja.org/details?id=8</loc>
+    <lastmod>2024-08-05</lastmod>
+    <priority>0.60</priority>
+  </url>
+
   <!-- Ajoutez d'autres URL de votre site -->
 </urlset>

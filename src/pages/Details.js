@@ -1,7 +1,8 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Header } from '../components/partials/Header';
 import { Footer } from '../components/partials/Footer';
-import { useLocation, useHistory } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { user } from '../data/user';
 import ProjectDetails from '../components/partials/ProjectDetails';
 
@@ -10,10 +11,14 @@ const Details = () => {
   const searchParams = new URLSearchParams(location.search);
   const itemId = searchParams.get('id');
 
-  // Vérifier si user et user.projects existent
   if (!user || !user.projects) {
     return (
       <React.Fragment>
+        <Helmet>
+          <title>No Projects Found - Andre Mulaja Portfolio</title>
+          <meta name="description" content="No projects are available at this time. Please check back later for more updates." />
+          <meta property="og:image" content="/logo.png" />
+        </Helmet>
         <Header />
         <div className='page-content wrapper-1'>
           <h2>Aucun projet trouvé.</h2>
@@ -23,13 +28,16 @@ const Details = () => {
     );
   }
 
-  // Trouver le projet par itemId
   const project = user.projects.find(p => p.id == itemId);
 
-  // Si aucun projet n'est trouvé
   if (!project) {
     return (
       <React.Fragment>
+        <Helmet>
+          <title>Project Not Found - Andre Mulaja Portfolio</title>
+          <meta name="description" content={`No project found for ID ${itemId}. Please verify the ID or check other projects.`} />
+          <meta property="og:image" content="/logo.png" />
+        </Helmet>
         <Header />
         <div className='page-content wrapper-1'>
           <h2>Projet non trouvé pour l'ID {itemId}.</h2>
@@ -39,9 +47,13 @@ const Details = () => {
     );
   }
 
-  // Si le projet est trouvé, afficher les détails
   return (
     <React.Fragment>
+      <Helmet>
+        <title>{project.name} - Andre Mulaja Portfolio</title>
+        <meta name="description" content={`Details about the project named "${project.name}".`} />
+        <meta property="og:image" content={project.cover} />
+      </Helmet>
       <Header />
       <div className='page-content wrapper-1'>
         <div>
