@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Projects - Andre Mulaja Portfolio</title>
+        <title>Projects - Andre Mulaja</title>
         <meta name="description" content="Explore the various projects developed by Andre Mulaja, showcasing skills in web, desktop, and mobile app development, as well as cloud computing." />
       </Helmet>
       <Header />

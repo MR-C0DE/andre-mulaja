@@ -15,7 +15,7 @@ const Details = () => {
     return (
       <React.Fragment>
         <Helmet>
-          <title>No Projects Found - Andre Mulaja Portfolio</title>
+          <title>No Projects Found - Andre Mulaja</title>
           <meta name="description" content="No projects are available at this time. Please check back later for more updates." />
           <meta property="og:image" content="/logo.png" />
         </Helmet>
@@ -34,7 +34,7 @@ const Details = () => {
     return (
       <React.Fragment>
         <Helmet>
-          <title>Project Not Found - Andre Mulaja Portfolio</title>
+          <title>Project Not Found - Andre Mulaja</title>
           <meta name="description" content={`No project found for ID ${itemId}. Please verify the ID or check other projects.`} />
           <meta property="og:image" content="/logo.png" />
         </Helmet>
@@ -50,7 +50,7 @@ const Details = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>{project.name} - Andre Mulaja Portfolio</title>
+        <title>{project.name} - Andre Mulaja </title>
         <meta name="description" content={`Details about the project named "${project.name}".`} />
         <meta property="og:image" content={project.cover} />
       </Helmet>
