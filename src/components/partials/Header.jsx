@@ -30,7 +30,7 @@ const Header = () => {
                 <Link to={"/contact"}>Contact</Link>
               </li>
               <li>
-                <a href={"/Software_Developer.pdf"} download>
+                <a href={"/MulajaDev.pdf"} download="MulajaDev.pdf">
                   <button>Resume</button>
                 </a>
               </li>

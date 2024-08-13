@@ -24,7 +24,7 @@ const Resume = () => {
               <li><a href={user.media.github}><img src="github.png" width={35} alt="" /></a></li>
               {width <= 580 && (
                 <li>
-                  <a href={"/Software_Developer.pdf"} download>
+                  <a href={"/MulajaDev.pdf"} download="MulajaDev.pdf">
                     <button>Resume</button>
                   </a>
                 </li>
