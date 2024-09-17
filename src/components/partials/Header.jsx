@@ -30,7 +30,7 @@ const Header = () => {
                 <Link to={"/contact"}>Contact</Link>
               </li>
               <li>
-                <a href={"/https://portfoliomulaja.s3.ca-central-1.amazonaws.com/docs/MulajaDev.pdf"} download="MulajaDev.pdf">
+                <a href={"https://portfoliomulaja.s3.ca-central-1.amazonaws.com/docs/MulajaDev.pdf"} download="MulajaDev.pdf">
                   <button>Resume</button>
                 </a>
               </li>
