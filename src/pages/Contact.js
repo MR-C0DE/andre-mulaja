@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import ContactInformation from '../components/partials/ContactInformation';
 import { Footer } from '../components/partials/Footer';
+import FormContact from '../components/partials/FormContact';
 import { Header } from '../components/partials/Header';
 
 const Contact = () => {
@@ -14,6 +15,7 @@ const Contact = () => {
       <Header />
         <div className='page-content wrapper-1'>
           <ContactInformation />
+          <FormContact />
         </div>
       <Footer />
     </React.Fragment>
