@@ -2,6 +2,7 @@ import React from "react";
 import { useScreenSize } from "../../contexts/ScreenSizeContext";
 import { user } from "../../data/user";
 import "../../styles/resume.css";
+import DownloadCVButton from "./DownloadCVButton";
 const Resume = () => {
   const { width } = useScreenSize();
   return (
@@ -24,9 +25,7 @@ const Resume = () => {
               <li><a href={user.media.github}><img src="github.png" width={35} alt="" /></a></li>
               {width <= 580 && (
                 <li>
-                  <a href={"https://portfoliomulaja.s3.ca-central-1.amazonaws.com/docs/MulajaDev.pdf"} download="MulajaDev.pdf">
-                    <button>Resume</button>
-                  </a>
+                  <DownloadCVButton />
                 </li>
               )}
           </ul>

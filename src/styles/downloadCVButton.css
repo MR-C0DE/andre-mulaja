@@ -1,0 +1,126 @@
+/* Bouton principal */
+.cv-button {
+    padding: 10px 20px;
+    background-color: #222222;
+    color: #ffffff;
+    border: 2px solid #ffcc00;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .cv-button:hover {
+    background-color: #ffcc00;
+    color: #222222;
+  }
+  
+  /* Overlay modale */
+  .cv-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Contenu modale */
+  .cv-modal {
+    background: #ffffff;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    animation: fadeInUp 0.3s ease;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Header de la modale */
+  .cv-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cv-modal-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  /* Bouton fermer */
+  .cv-close-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cv-close-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Corps de la modale */
+  .cv-modal-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cv-download-btn {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 2px solid #222;
+    background-color: #ffffff;
+    color: #222;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cv-download-btn:hover {
+    background-color: #222;
+    color: #ffffff;
+  }
+  
+  /* Responsive */
+  @media (max-width: 480px) {
+    .cv-modal {
+      max-width: 90%;
+    }
+  
+    .cv-download-btn {
+      font-size: 0.95rem;
+      padding: 10px;
+    }
+  
+    .cv-close-btn {
+      font-size: 0.85rem;
+      padding: 5px 10px;
+    }
+  }
+  
