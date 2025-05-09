@@ -22,7 +22,7 @@ const DownloadCVButton = () => {
   return (
     <>
       <button className="cv-button" onClick={() => setShowModal(true)}>
-        Download Resume
+        Resume
       </button>
 
       {showModal && (
